@@ -1,0 +1,798 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FIRST SECTION  */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  margin-bottom: 255px;
+}
+
+.logo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 135px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav {
+  margin-left: auto;
+}
+
+nav a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  text-decoration: none;
+  margin: 105px;
+  color: #fff;
+}
+
+#Menu {
+  width: 100%;
+  height: 2000px;
+
+  background-image: url(./img/tibumana-waterfall-bali-island-indonesia\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text h1 {
+  color: #fff;
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-size: 120px;
+  margin-bottom: 15px;
+}
+
+.text p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 42px;
+  color: #fff;
+  margin-bottom: 155px;
+}
+
+.more-btn {
+  width: 630px;
+  height: 121px;
+  border-radius: 25px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #fff;
+  background-color: rgba(9, 97, 34, 1);
+  border: none;
+}
+
+.more-btn:hover {
+  transform: scale(1.1);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+/* SECOND SECTION  */
+.Top_text h1 {
+  margin-top: 155px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+}
+
+.video {
+  margin-top: 100px;
+  border-radius: 20px;
+  margin-bottom: 120px;
+}
+
+.PathWay {
+  position: relative;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: fit-content;
+}
+.sicles {
+  display: flex;
+  top: -30px;
+  gap: 500px;
+  left: 650px;
+  margin-bottom: 50px;
+}
+
+.sicle {
+  background-color: rgba(9, 97, 34, 1);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: 0 0 0 1px rgba(9, 97, 34, 1);
+  color: #fff;
+}
+
+.outer-ring {
+  width: 70px;
+  height: 70px;
+  border: 2px solid rgba(9, 97, 34, 1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.cards {
+  display: flex;
+  gap: 250px;
+  height: 180px;
+  justify-content: center;
+}
+.img {
+  position: absolute;
+  top: 35px;
+  z-index: -1;
+  width: 100%;
+}
+
+.card {
+  width: 320px;
+  height: 73px;
+  border-radius: 20px;
+  background-color: rgba(9, 97, 34, 1);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+}
+
+.card:first-child {
+  align-self: flex-start;
+}
+.card:nth-child(2) {
+  align-self: center;
+}
+
+.card:last-child {
+  align-self: flex-end;
+}
+
+/* THIRD SECTION  */
+
+#WhyYouCanTrusUs {
+  margin-top: 155px;
+}
+.Text_up h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  margin-bottom: 105px;
+}
+
+.Left_text {
+  height: 346px;
+}
+
+.Left_text p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+}
+
+.Left_text h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 128px;
+}
+
+.Rigth_text p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+}
+
+.Rigth_text h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 128px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-around;
+  height: 500px;
+}
+
+.cards-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 155px;
+}
+
+.card-2 img {
+  width: 300px;
+  height: 300px;
+}
+
+.card-2 p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 28px;
+  width: 300px;
+  text-align: center;
+}
+
+.Down-text h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 255px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Star-text h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 155px;
+}
+.box {
+  display: flex;
+}
+
+.box img:first-child {
+  width: 300px;
+  height: 400px;
+  margin-right: 55px;
+}
+
+.content-2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 555px;
+}
+
+.Name_text {
+  margin: 25px;
+}
+.Name_text h1 {
+  margin: 25px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.Name_text span {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+  text-align: center;
+}
+
+.Name_text a {
+  text-decoration: none;
+  color: black;
+}
+
+.Name_text a:hover {
+  text-decoration: underline;
+}
+.prise {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 360px;
+}
+
+.picter img {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(9, 97, 34, 1);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.main {
+  width: 740px;
+  height: 400px;
+  background-color: rgba(196, 196, 196, 1);
+}
+
+.main h1 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  color: #fff;
+  margin-top: 41px;
+}
+.main ul {
+  margin-top: 32px;
+}
+
+.main li {
+  width: 100%;
+  list-style: none;
+  text-align: start;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 32px;
+  margin-left: 42px;
+}
+
+.Wi-Fi {
+  text-align: start;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.Price {
+  margin-left: 45%;
+  font-size: 45px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+/* FOURTH SECTION  */
+
+.Star-text h1:last-child {
+  margin-bottom: 82px;
+}
+
+#Booking {
+  margin-top: 100px;
+  margin-bottom: 319px;
+}
+
+.Booking-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.Booking-form-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.Booking-form {
+  padding: 3rem;
+  border-radius: 10px;
+  max-width: 850px;
+  width: 100%;
+  height: 843px;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgba(196, 196, 196, 1);
+  text-align: center;
+  color: #fff;
+}
+
+.Booking-form h2 {
+  margin-bottom: 0.5rem;
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-size: 64px;
+}
+
+.Booking-form p {
+  font-weight: 600;
+  margin-bottom: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+}
+
+.Booking-form input[type="text"],
+.Booking-form input[type="tel"],
+.Booking-form input[type="email"] {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  color: #000;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+}
+
+.checkbox-wrapper input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.checkbox-wrapper a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.Booking-form button {
+  background-color: #096122;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.Booking-form button:hover {
+  transform: scale(1.05);
+}
+
+/* FIFTH SECTION  */
+
+.border-map {
+  width: 526px;
+  height: 494px;
+  margin: 13px;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13px;
+}
+
+.up_text {
+  text-align: center;
+  margin-bottom: 49px;
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-size: 64px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-text h2 {
+  font-weight: 600;
+  margin-bottom: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+}
+
+.first-text p {
+  font-weight: 500;
+  margin-bottom: 36px;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+}
+
+.second-text h2 {
+  font-weight: 600;
+  margin-bottom: 22px;
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+}
+
+.second-text p {
+  font-weight: 500;
+  margin-bottom: 36px;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+}
+
+.social {
+  margin-bottom: 50px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.buttons p {
+  font-weight: 500;
+  margin-left: 33px;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.content-1 {
+  margin-top: 12px;
+  margin-left: 47px;
+}
+
+#Contact {
+  margin-bottom: 122px;
+}
+
+/* FOOTER  */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  margin-bottom: 155px;
+}
+
+.Logo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 135px;
+}
+
+.Logo a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.silk a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  text-decoration: none;
+  margin: 105px;
+  color: #000000;
+}
+
+.silk {
+  margin-left: auto;
+}
+
+.animate-hidden {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease;
+}
+
+.animate-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 1024px) {
+  .logo,
+  .Logo {
+    font-size: 32px;
+    margin-left: 30px;
+  }
+
+  nav a,
+  .silk a {
+    font-size: 24px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text h1 {
+    font-size: 72px;
+  }
+
+  .text p {
+    font-size: 28px;
+  }
+
+  .more-btn {
+    width: 100%;
+    max-width: 400px;
+    font-size: 20px;
+    height: 90px;
+  }
+
+  .video {
+    width: 100%;
+    height: auto;
+  }
+
+  .sicles {
+    display: none;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .cards {
+    gap: 80px;
+    flex-direction: column;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 40px;
+    height: auto;
+  }
+
+  .cards-2 {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .prise {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .picter img,
+  .main {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+
+  .main ul {
+    margin-left: 0;
+  }
+
+  .Price {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .content-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box img:first-child {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+
+  .Booking-form {
+    padding: 1.5rem;
+    height: auto;
+  }
+
+  .Booking-form input {
+    font-size: 16px;
+  }
+
+  .main-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+}
+
+/* Телефоны (до 768px) */
+@media (max-width: 768px) {
+  header,
+  footer {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  nav,
+  .silk {
+    margin-left: 0;
+    flex-direction: column;
+  }
+
+  nav a,
+  .silk a {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+
+  .text h1 {
+    font-size: 48px;
+  }
+
+  .text p {
+    font-size: 22px;
+  }
+
+  .more-btn {
+    font-size: 18px;
+    height: 70px;
+    max-width: 100%;
+  }
+
+  .Top_text h1,
+  .Text_up h1,
+  .Down-text h1,
+  .Star-text h1,
+  .Booking-form h2,
+  .up_text h1 {
+    font-size: 36px;
+  }
+
+  .card,
+  .card-2 p {
+    font-size: 18px;
+  }
+
+  .card-2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .main li {
+    font-size: 18px;
+  }
+
+  .border-map {
+    width: 100%;
+    height: auto;
+  }
+
+  iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  .Name_text h1 {
+    font-size: 28px;
+  }
+
+  .Name_text span {
+    font-size: 20px;
+  }
+}
